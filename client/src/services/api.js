@@ -1,4 +1,4 @@
-const BASE_URL = "/api";
+const BASE_URL ="https://gocampus-rv8r.onrender.com/api";
 
 async function request(endpoint, options = {}) {
   const token = localStorage.getItem("connectcampus_token");
