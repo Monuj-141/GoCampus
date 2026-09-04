@@ -131,7 +131,7 @@ const Navbar = () => {
                   <img
                     src={user.avatar}
                     alt={user.name}
-                    className="h-8 w-8 rounded-lg object-cover border border-slate-200 dark:border-slate-800"
+                    className="h-8 w-8 rounded-full object-cover border border-slate-200 dark:border-slate-800"
                   />
                 ) : (
                   <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-indigo-600 text-sm font-bold text-white uppercase">

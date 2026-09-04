@@ -227,7 +227,7 @@ function ProfilePage() {
               <img
                 src={avatarPreview}
                 alt={formData.name || "Profile"}
-                className="h-24 w-24 rounded-3xl object-cover border-2 border-indigo-200 shadow-md"
+                className="h-24 w-24 rounded-full object-cover border-2 border-indigo-200 shadow-md"
               />
             ) : (
               <div className="flex h-24 w-24 items-center justify-center rounded-3xl bg-indigo-600 text-3xl font-extrabold text-white uppercase shadow-md">
@@ -297,7 +297,7 @@ function ProfilePage() {
                     <img
                       src={avatarPreview}
                       alt="Avatar preview"
-                      className="h-16 w-16 rounded-2xl object-cover border border-indigo-300 shadow-xs"
+                      className="h-16 w-16 rounded-full object-cover border border-indigo-300 shadow-xs"
                     />
                   ) : (
                     <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-indigo-100 text-indigo-600 font-bold text-xl">
